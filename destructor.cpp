@@ -13,4 +13,13 @@ public:
     void cetalData();
     void isiData();
 };
+
+angka::angka(int i){ //constructor
+    panjang = 1;
+    arr = new int[i];
+    isiData();
+    delete[] arr;
+    cout << "Alamat array sudah dilepaskan" << endl;
+}
+
     
