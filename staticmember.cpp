@@ -18,3 +18,10 @@ public:
         setID();
     }
 };
+
+//memberi value ke variabel nim dari class mahasiswa
+int Mahasiswa::NIM = 0;
+
+
+
+
